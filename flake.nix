@@ -22,14 +22,14 @@
       nix-darwin,
       ...
     }@inputs:
-    let
-      systems = [
-        "aarch64-darwin"
-        "x86_64-linux"
-      ];
-
-      forEachSystem = nixpkgs.lib.genAttrs systems;
-    in
+    #let
+    #  systems = [
+    #    "aarch64-darwin"
+    #    "x86_64-linux"
+    #  ];
+    #
+    #  forEachSystem = nixpkgs.lib.genAttrs systems;
+    #in
     {
       darwinConfigurations = {
         macbook = nix-darwin.lib.darwinSystem {
