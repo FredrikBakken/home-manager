@@ -14,8 +14,18 @@
       eval "$(starship init zsh)"
     '';
     shellAliases = {
+      add = "git add";
+      commit = "git commit -s -m";
+      checkout = "git checkout -b";
+      clone = "git clone";
+      push = "git push";
+      pull = "git pull --rebase";
+      rebase = "git rebase";
+      status = "git status";
+
       ll = "ls -lah";
-      update = "home-manager switch --flake ~/.config/home-manager#fredrikbakken@macbook --show-trace";
+
+      hm-update = "home-manager switch --flake ~/.config/home-manager#fredrikbakken@macbook --show-trace";
     };
     syntaxHighlighting = {
       enable = true;
