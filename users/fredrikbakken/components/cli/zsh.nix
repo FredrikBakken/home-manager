@@ -5,14 +5,13 @@
     autosuggestion = {
       enable = true;
     };
-    initExtra = ''
-      eval "$(direnv hook zsh)"
-      eval "$(starship init zsh)"
-    '';
-    initExtraBeforeCompInit = ''
+    initContent = ''
       if [ -f "$HOME/.nix-profile/etc/profile.d/hm-session-vars.sh" ]; then
         . "$HOME/.nix-profile/etc/profile.d/hm-session-vars.sh"
       fi
+
+      eval "$(direnv hook zsh)"
+      eval "$(starship init zsh)"
     '';
     shellAliases = {
       ll = "ls -lah";

@@ -1,7 +1,13 @@
 { pkgs, ... }:
 
 {
-  home.packages = [
-    pkgs.brave
-  ];
+  programs.chromium = {
+    enable = true;
+    package = pkgs.brave;
+
+    extensions = [
+      { id = "ghmbeldphafepmbegfdlkpapadhbakde"; } # Proton Pass
+      { id = "jplgfhpmjnbigmhklmmbgecoobifkmpa"; } # Proton VPN
+    ];
+  };
 }
