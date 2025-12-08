@@ -16,12 +16,14 @@
     shellAliases = {
       add = "git add";
       commit = "git commit -s -m";
-      checkout = "git checkout -b";
+      checkout = "git checkout";
       clone = "git clone";
       push = "git push";
       pull = "git pull --rebase";
       rebase = "git rebase";
+      stash = "git stash";
       status = "git status";
+      switch = "git switch";
 
       ll = "ls -lah";
 
