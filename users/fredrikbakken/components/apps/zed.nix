@@ -1,4 +1,6 @@
-{ pkgs, ... }:
+# Zed Editor
+# Homepage: https://zed.dev/
+# Schema for settings.json: https://github.com/zed-industries/zed/blob/main/assets/settings/default.json
 
 {
   programs.zed-editor = {
@@ -25,7 +27,7 @@
         detect_venv = {
           on = {
             activate_script = "default";
-            directories = [".venv"];
+            directories = [ ".venv" ];
           };
         };
         env = {
