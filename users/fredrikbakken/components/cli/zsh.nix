@@ -14,14 +14,16 @@
       eval "$(starship init zsh)"
     '';
     shellAliases = {
-      add = "git add";
-      commit = "git commit -s -m";
-      checkout = "git checkout -b";
-      clone = "git clone";
-      push = "git push";
-      pull = "git pull --rebase";
-      rebase = "git rebase";
-      status = "git status";
+      ga = "git add";
+      gc = "git commit -s -m";
+      gcl = "git clone";
+      gco = "git checkout";
+      gp = "git push";
+      gpl = "git pull --rebase";
+      grb = "git rebase";
+      gsh = "git stash";
+      gst = "git status";
+      gsw = "git switch";
 
       ll = "ls -lah";
 
