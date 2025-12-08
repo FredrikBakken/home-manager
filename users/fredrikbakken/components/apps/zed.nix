@@ -6,12 +6,12 @@
   programs.zed-editor = {
     enable = true;
     extensions = [
+      "catppuccin"
       "dockerfile"
       "docker-compose"
-      "html"
-      "catppuccin"
       "nix"
       "opencode"
+      "toml"
     ];
     userSettings = {
       icon_theme = "Zed (Default)";
