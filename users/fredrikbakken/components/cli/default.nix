@@ -10,5 +10,6 @@
     ./nixd.nix
     ./starship.nix
     ./talosctl.nix
+    ./zsh.nix
   ];
 }
