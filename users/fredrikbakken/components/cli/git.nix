@@ -1,6 +1,7 @@
 {
   programs.git = {
     enable = true;
+
     lfs.enable = false;
     settings = {
       user = {
@@ -12,6 +13,12 @@
       };
       push = {
         autoSetupRemote = true;
+      };
+      pull = {
+        rebase = true;
+      };
+      rebase = {
+        autoStash = true;
       };
     };
   };
