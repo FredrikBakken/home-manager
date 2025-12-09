@@ -2,9 +2,10 @@
   imports = [
     ./chezmoi.nix
     ./colima.nix
-    ./devenv.nix
+    ./devbox.nix
     ./direnv.nix
     ./git.nix
+    ./gum.nix
     ./kubectl.nix
     ./nil.nix
     ./nixd.nix

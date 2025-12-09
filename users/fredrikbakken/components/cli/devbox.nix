@@ -2,6 +2,6 @@
 
 {
   home.packages = [
-    pkgs.devenv
+    pkgs.devbox
   ];
 }
