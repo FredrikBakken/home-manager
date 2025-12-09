@@ -3,9 +3,9 @@
     ./chezmoi.nix
     ./colima.nix
     ./devbox.nix
-    #./devenv.nix
     ./direnv.nix
     ./git.nix
+    ./gum.nix
     ./kubectl.nix
     ./nil.nix
     ./nixd.nix
