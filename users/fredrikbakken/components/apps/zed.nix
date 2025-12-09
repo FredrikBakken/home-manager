@@ -12,6 +12,7 @@
       "git-firefly"
       "nix"
       "opencode"
+      "sqruff"
       "toml"
     ];
     userSettings = {
