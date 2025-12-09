@@ -14,6 +14,7 @@
       "opencode"
       "sqruff"
       "toml"
+      "typst"
     ];
     userSettings = {
       icon_theme = "Zed (Default)";
