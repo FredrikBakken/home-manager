@@ -9,6 +9,7 @@
       "catppuccin"
       "dockerfile"
       "docker-compose"
+      "git-firefly"
       "nix"
       "opencode"
       "toml"
