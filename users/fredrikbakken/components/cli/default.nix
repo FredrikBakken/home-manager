@@ -9,6 +9,7 @@
     ./kubectl.nix
     ./nil.nix
     ./nixd.nix
+    ./opencode.nix
     ./starship.nix
     ./talosctl.nix
     ./zsh.nix
