@@ -25,6 +25,7 @@
       gst = "git status";
       gsw = "git switch";
 
+      k = "kubectl";
       ll = "ls -lah";
 
       hm-update = "home-manager switch --flake ~/.config/home-manager#fredrikbakken@macbook --show-trace";
