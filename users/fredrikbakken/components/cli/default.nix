@@ -4,8 +4,11 @@
     ./colima.nix
     ./devbox.nix
     ./direnv.nix
+    ./fluxcd.nix
     ./git.nix
     ./gum.nix
+    ./helm.nix
+    ./k9s.nix
     ./kubectl.nix
     ./nil.nix
     ./nixd.nix
