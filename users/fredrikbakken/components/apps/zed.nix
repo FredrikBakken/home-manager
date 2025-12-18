@@ -10,6 +10,7 @@
       "dockerfile"
       "docker-compose"
       "git-firefly"
+      "helm"
       "nix"
       "opencode"
       "sqruff"
@@ -21,6 +22,7 @@
       journal = {
         hour_format = "hour24";
       };
+      load_direnv = "direct";
       vim_mode = true;
       telemetry = {
         diagnostics = false;

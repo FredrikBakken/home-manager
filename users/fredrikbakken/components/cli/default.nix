@@ -8,6 +8,7 @@
     ./git.nix
     ./gum.nix
     ./helm.nix
+    ./k3d.nix
     ./k9s.nix
     ./kubectl.nix
     ./nil.nix
