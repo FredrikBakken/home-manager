@@ -15,3 +15,12 @@ At any later stage, the alias can be used:
 ```shell
 hm-update
 ```
+
+### Update `flake.lock`
+
+Update the `flake.lock` with the commands:
+
+```shell
+nix flake update
+hm-update
+```
