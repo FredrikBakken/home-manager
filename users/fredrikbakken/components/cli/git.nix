@@ -1,3 +1,5 @@
+{ gitName, gitEmail, ... }:
+
 {
   programs.git = {
     enable = true;
@@ -5,8 +7,8 @@
     lfs.enable = false;
     settings = {
       user = {
-        name = "Fredrik Bakken";
-        email = "Fredrik.Bakken@gmail.com";
+        name = gitName;
+        email = gitEmail;
       };
       init = {
         defaultBranch = "main";
