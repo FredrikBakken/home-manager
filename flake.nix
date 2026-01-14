@@ -45,6 +45,12 @@
           extraSpecialArgs = { inherit inputs; };
           modules = [ ./users/fredrikbakken/personal_macbook.nix ];
         };
+
+        "fredrikbakken@nb-wsl" = home-manager.lib.homeManagerConfiguration {
+          pkgs = nixpkgs.legacyPackages.x86_64-linux;
+          extraSpecialArgs = { inherit inputs; };
+          modules = [ ./users/fredrikbakken/work_wsl.nix ];
+        };
       };
     };
 }

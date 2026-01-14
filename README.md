@@ -2,6 +2,14 @@
 
 The structure in this repository is inspired by [ssouthcity's `nix`-repository](https://github.com/ssouthcity/nix/tree/main).
 
+## Prerequisites
+
+Create a new file at `~/.config/nix/nix.conf` with the following:
+
+```conf
+experimental-features = nix-command flakes
+```
+
 ## Usage
 
 First time the `home-manager` is initialized, used:
