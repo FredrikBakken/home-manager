@@ -45,7 +45,7 @@ in
     # 🔐 WSL-only: Use Git Credential Manager
     programs.git.settings = {
       credential = {
-        helper = "manager-core";
+        helper = "manager";
       };
     };
 
