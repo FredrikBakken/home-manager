@@ -46,6 +46,8 @@ in
     programs.git.settings = {
       credential = {
         helper = "manager";
+        credentialStore = "cache";
+        useHttpPath = true;
       };
     };
 
