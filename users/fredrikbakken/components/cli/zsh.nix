@@ -28,7 +28,8 @@
       k = "kubectl";
       ll = "ls -lah";
 
-      hm-update = "home-manager switch --flake ~/.config/home-manager#fredrikbakken@macbook --show-trace";
+      hm-mac = "home-manager switch --flake ~/.config/home-manager#fredrikbakken@macbook --show-trace";
+      hm-wsl = "home-manager switch --flake ~/.config/home-manager#fredrikbakken@nb-wsl --show-trace";
     };
     syntaxHighlighting = {
       enable = true;
