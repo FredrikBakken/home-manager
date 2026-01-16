@@ -15,13 +15,19 @@ experimental-features = nix-command flakes
 First time the `home-manager` is initialized, used:
 
 ```shell
-home-manager switch --flake ~/.config/home-manager#fredrikbakken@macbook --show-trace
+home-manager switch --flake ~/.config/home-manager#fredrikbakken@<device> --show-trace
 ```
 
 At any later stage, the alias can be used:
 
 ```shell
-hm-update
+hm-mac
+```
+
+or
+
+```shell
+hm-wsl
 ```
 
 ### Update `flake.lock`
@@ -30,5 +36,4 @@ Update the `flake.lock` with the commands:
 
 ```shell
 nix flake update
-hm-update
 ```
