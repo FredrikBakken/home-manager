@@ -17,6 +17,7 @@ in
     ./components/cli/devbox.nix
     ./components/cli/direnv.nix
     ./components/cli/git-credential-manager.nix
+    ./components/cli/git-quick-stats.nix
     ./components/cli/home-manager.nix
     ./components/cli/starship.nix
     ./components/cli/wslu.nix
