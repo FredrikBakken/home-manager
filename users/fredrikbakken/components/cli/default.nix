@@ -5,7 +5,7 @@
     ./devbox.nix
     ./direnv.nix
     ./fluxcd.nix
-    ./git.nix
+    #./git.nix
     ./gum.nix
     ./helm.nix
     ./k3d.nix

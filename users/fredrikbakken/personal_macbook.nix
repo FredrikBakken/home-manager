@@ -3,10 +3,21 @@
   ...
 }:
 
+let
+  gitName = "Fredrik Bakken";
+  gitEmail = "Fredrik.Bakken@gmail.com";
+
+in
+
 {
   imports = [
     ./components/apps
     ./components/cli
+
+    (import ./components/cli/git.nix {
+      gitName = gitName;
+      gitEmail = gitEmail;
+    })
   ];
 
   config = {
