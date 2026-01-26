@@ -13,7 +13,7 @@ in
   imports = [
     ./components/apps/zed.nix
     ./components/cli/azure-cli.nix
-    ./components/cli/databricks-cli.nix
+    #./components/cli/databricks-cli.nix
     ./components/cli/devbox.nix
     ./components/cli/direnv.nix
     ./components/cli/git-credential-manager.nix
