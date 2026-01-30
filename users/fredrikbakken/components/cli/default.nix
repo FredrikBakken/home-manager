@@ -11,6 +11,7 @@
     ./k3d.nix
     ./k9s.nix
     ./kubectl.nix
+    ./mise.nix
     ./nil.nix
     ./nixd.nix
     ./opencode.nix
