@@ -19,6 +19,7 @@ in
     ./components/cli/git-credential-manager.nix
     ./components/cli/git-quick-stats.nix
     ./components/cli/home-manager.nix
+    ./components/cli/mise.nix
     ./components/cli/starship.nix
     ./components/cli/wslu.nix
     ./components/cli/zsh.nix

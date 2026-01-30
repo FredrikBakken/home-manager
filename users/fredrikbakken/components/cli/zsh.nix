@@ -10,8 +10,9 @@
         . "$HOME/.nix-profile/etc/profile.d/hm-session-vars.sh"
       fi
 
-      eval "$(direnv hook zsh)"
-      eval "$(starship init zsh)"
+      (( $+commands[direnv] )) && eval "$(direnv hook zsh)"
+      (( $+commands[starship] )) && eval "$(starship init zsh)"
+      (( $+commands[mise] )) && eval "$(mise activate zsh)"
     '';
     shellAliases = {
       ga = "git add";
