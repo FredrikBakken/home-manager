@@ -14,6 +14,7 @@
     ./mise.nix
     ./nil.nix
     ./nixd.nix
+    ./ollama.nix
     ./opencode.nix
     ./starship.nix
     ./talosctl.nix
