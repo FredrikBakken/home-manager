@@ -2,6 +2,6 @@
 
 {
   home.packages = [
-    pkgs.signal-desktop
+    pkgs.libreoffice-bin
   ];
 }

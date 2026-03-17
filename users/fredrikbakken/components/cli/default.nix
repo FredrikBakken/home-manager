@@ -18,6 +18,7 @@
     ./opencode.nix
     ./starship.nix
     ./talosctl.nix
+    ./tree.nix
     ./zsh.nix
   ];
 }
