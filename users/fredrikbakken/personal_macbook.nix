@@ -31,7 +31,7 @@ in
       pkg:
       builtins.elem (lib.getName pkg) [
         "discord"
-        "signal-desktop-bin"
+        "signal-desktop"
       ]
     );
   };
