@@ -1,5 +1,7 @@
 {
+  config,
   lib,
+  pkgs,
   ...
 }:
 
@@ -11,16 +13,17 @@ in
 
 {
   imports = [
-    ./components/apps/zed.nix
-    ./components/cli/azure-cli.nix
-    #./components/cli/databricks-cli.nix
-    ./components/cli/devbox.nix
-    ./components/cli/direnv.nix
+    #./components/apps/zed.nix
+    #./components/cli/azure-cli.nix
+    ./components/cli/databricks-cli.nix
+    #./components/cli/devbox.nix
+    #./components/cli/direnv.nix
     ./components/cli/git-credential-manager.nix
     ./components/cli/git-quick-stats.nix
     ./components/cli/home-manager.nix
     ./components/cli/mise.nix
     ./components/cli/starship.nix
+    ./components/cli/tree.nix
     ./components/cli/wslu.nix
     ./components/cli/zsh.nix
 
