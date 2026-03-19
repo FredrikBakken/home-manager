@@ -28,6 +28,7 @@
 
       k = "kubectl";
       ll = "ls -lah";
+      tf = "terraform";
 
       hm-mac = "home-manager switch --flake ~/.config/home-manager#fredrikbakken@macbook --show-trace";
       hm-wsl = "home-manager switch --flake ~/.config/home-manager#fredrikbakken@nb-wsl --show-trace";
