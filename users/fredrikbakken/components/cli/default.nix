@@ -10,6 +10,7 @@
     ./helm.nix
     ./k3d.nix
     ./k9s.nix
+    ./kraft.nix
     ./kubectl.nix
     ./mise.nix
     ./nil.nix

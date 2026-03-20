@@ -14,6 +14,7 @@
       "nix"
       "opencode"
       "sqruff"
+      "terraform"
       "toml"
       "typst"
     ];
