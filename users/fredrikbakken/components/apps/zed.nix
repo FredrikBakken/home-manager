@@ -13,6 +13,7 @@
       "helm"
       "nix"
       "opencode"
+      "sql"
       "sqruff"
       "toml"
       "typst"
