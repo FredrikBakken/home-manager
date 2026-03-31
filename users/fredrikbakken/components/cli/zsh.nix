@@ -1,3 +1,5 @@
+{ pkgs, ... }:
+
 {
   programs.zsh = {
     enable = true;
@@ -13,6 +15,8 @@
       (( $+commands[direnv] )) && eval "$(direnv hook zsh)"
       (( $+commands[starship] )) && eval "$(starship init zsh)"
       (( $+commands[mise] )) && eval "$(mise activate zsh)"
+
+      eval "$(${pkgs.worktrunk}/bin/wt config shell init zsh)"
     '';
     shellAliases = {
       ga = "git add";
