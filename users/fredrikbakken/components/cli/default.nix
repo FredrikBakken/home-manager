@@ -19,6 +19,7 @@
     ./starship.nix
     ./talosctl.nix
     ./tree.nix
+    ./worktrunk.nix
     ./zsh.nix
   ];
 }
