@@ -5,8 +5,9 @@
     pkgs.worktrunk
   ];
 
-  xdg.configFile."wt.toml".text = ''
+  xdg.configFile."worktrunk/config.toml".text = ''
     [post-start]
     copy = "wt step copy-ignored"
+    mise-trust = "command -v mise >/dev/null 2>&1 && [ -f mise.toml ] && mise trust"
   '';
 }
