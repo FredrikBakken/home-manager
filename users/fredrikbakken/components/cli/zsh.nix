@@ -24,7 +24,7 @@
       gcl = "git clone";
       gco = "git checkout";
       gp = "git push";
-      gpl = "git pull --rebase";
+      gpl = "git pull --rebase origin main";
       grb = "git rebase";
       gsh = "git stash";
       gst = "git status";
