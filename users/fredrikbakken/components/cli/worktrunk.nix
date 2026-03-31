@@ -11,5 +11,6 @@
     [post-start]
     copy = "wt step copy-ignored"
     mise-trust = "command -v mise >/dev/null 2>&1 && [ -f mise.toml ] && mise trust"
+    prek = "command -v prek >/dev/null 2>&1 && [ -f prek.toml ] && prek install"
   '';
 }
