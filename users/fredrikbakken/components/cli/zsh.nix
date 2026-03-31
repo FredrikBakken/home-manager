@@ -30,6 +30,11 @@
       gst = "git status";
       gsw = "git switch";
 
+      wts = "wt switch";
+      wtl = "wt list";
+      wtr = "wt remove";
+      wtm = "wt merge";
+
       k = "kubectl";
       ll = "ls -lah";
       tf = "terraform";
