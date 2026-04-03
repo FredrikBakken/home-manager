@@ -13,6 +13,7 @@
       "helm"
       "nix"
       "opencode"
+      "svelte"
       "sql"
       "sqruff"
       "toml"
