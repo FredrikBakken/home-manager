@@ -2,6 +2,7 @@
   imports = [
     ./chezmoi.nix
     ./colima.nix
+    ./colmap.nix
     ./devbox.nix
     ./direnv.nix
     ./fluxcd.nix
