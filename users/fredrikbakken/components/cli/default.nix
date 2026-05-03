@@ -2,8 +2,9 @@
   imports = [
     ./chezmoi.nix
     ./colima.nix
-    ./devbox.nix
+    ./colmap.nix
     ./direnv.nix
+    ./ffmpeg.nix
     ./fluxcd.nix
     #./git.nix
     ./gum.nix
