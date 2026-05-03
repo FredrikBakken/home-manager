@@ -12,6 +12,11 @@
         . "$HOME/.nix-profile/etc/profile.d/hm-session-vars.sh"
       fi
 
+      # Aikido safe-chain: https://github.com/AikidoSec/safe-chain
+      if [ -f "$HOME/.safe-chain/scripts/init-posix.sh" ]; then
+        . "$HOME/.safe-chain/scripts/init-posix.sh"
+      fi
+
       (( $+commands[direnv] )) && eval "$(direnv hook zsh)"
       (( $+commands[starship] )) && eval "$(starship init zsh)"
       (( $+commands[mise] )) && eval "$(mise activate zsh)"

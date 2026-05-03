@@ -3,8 +3,8 @@
     ./chezmoi.nix
     ./colima.nix
     ./colmap.nix
-    ./devbox.nix
     ./direnv.nix
+    ./ffmpeg.nix
     ./fluxcd.nix
     #./git.nix
     ./gum.nix
