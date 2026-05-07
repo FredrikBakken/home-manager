@@ -24,7 +24,6 @@ in
     ./components/cli/mise.nix
     ./components/cli/starship.nix
     ./components/cli/tree.nix
-    ./components/cli/wslu.nix
     ./components/cli/zsh.nix
 
     (import ./components/cli/git.nix {
