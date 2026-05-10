@@ -1,5 +1,5 @@
 {
-  description = "Home Manager configuration";
+  description = "Home Manager configuration for Fredrik Bakken";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
@@ -22,15 +22,8 @@
       nix-darwin,
       ...
     }@inputs:
-    #let
-    #  systems = [
-    #    "aarch64-darwin"
-    #    "x86_64-linux"
-    #  ];
-    #
-    #  forEachSystem = nixpkgs.lib.genAttrs systems;
-    #in
     {
+      # Darwin (macOS) configurations
       darwinConfigurations = {
         macbook = nix-darwin.lib.darwinSystem {
           system = "aarch64-darwin";
@@ -39,6 +32,7 @@
         };
       };
 
+      # Home Manager configurations for different users/devices
       homeConfigurations = {
         "fredrikbakken@macbook" = home-manager.lib.homeManagerConfiguration {
           pkgs = nixpkgs.legacyPackages.aarch64-darwin;
