@@ -1,5 +1,6 @@
 {
   imports = [
+    ./bruno-cli.nix
     ./chezmoi.nix
     ./colima.nix
     ./colmap.nix
